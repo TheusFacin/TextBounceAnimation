@@ -66,6 +66,7 @@ const App = () => {
           },
         }}
       />
+
       <div className="text-container">
         <h1>
           <BouncingPhrase>Bom dia!</BouncingPhrase>
