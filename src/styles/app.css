@@ -1,0 +1,35 @@
+header {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-container {
+  position: absolute;
+  inset: 0px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.particles-container {
+  position: absolute;
+  inset: 0px;
+}
+
+p {
+  animation: appear 0.5s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
